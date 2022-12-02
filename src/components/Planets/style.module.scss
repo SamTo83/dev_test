@@ -1,0 +1,40 @@
+@media (min-width: 900px) {
+  .cardContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .wrapper{
+    padding: 2.5rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 2rem;
+    border-radius: 2rem;
+    background-color: #000;
+    background: rgba(86, 83, 83, 0.365);
+  }
+  .title{
+    display: flex;
+    justify-content: center;
+    color: rgb(182, 182, 15);
+  }
+  .img{
+    width: 15rem;
+    height: 15rem;
+    padding: 1rem;
+    border-radius: 50%;
+  }
+  .label{
+    color: whitesmoke;
+    span{
+      color: rgb(182, 182, 15);
+    }
+  }
+}
+
+@media (min-width: 1447px){
+  .cardContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+}
